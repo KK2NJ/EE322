@@ -1,0 +1,21 @@
+1. Real-Time Secure Communication Protocols for Embedded Systems
+2.
+---Objective (why?)
+The project’s goal is to identify which protocol design best balances security vs. timing for constrained embedded nodes.
+---Background (who? where?)
+This is highly relevant for teams building industrial IoT, robotics, smart energy, and building automation systems where small MCUs communicate over constrained/low-power links. CoAP is specifically designed for constrained nodes and lossy networks.
+---Methodology (how? when?)
+Over ~8 weeks, measure latency/jitter/deadline misses plus CPU/RAM/energy under normal and attack conditions.
+---Expected results (what?)
+A reproducible benchmark dataset (latency/jitter/resource/security outcomes).
+---Cost
+2–3 dev boards (ESP32/STM32/RP2040 mix): $30–$120
+
+USB-UART/debug accessories: $15–$40
+
+Breadboard/wires/passives: $10–$25
+
+Optional power meter: $20–$60
+
+Optional network tool (logic analyzer/sniffer dongle): $20–$60
+Estimated total: $55–$305
